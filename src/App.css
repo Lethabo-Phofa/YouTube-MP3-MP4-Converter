@@ -1,0 +1,104 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F8F3D9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  text-align: center;
+  background-color: #EBE5C2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Title */
+h1 {
+  color: #504B38;
+}
+
+/* Input Field */
+input {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #B9B28A;
+  border-radius: 5px;
+  outline: none;
+  background-color: white;
+  color: #504B38;
+}
+
+/* Buttons */
+button {
+  background-color: #504B38;
+  color: #F8F3D9;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #B9B28A;
+}
+
+
+.video-info {
+  margin-top: 20px;
+  background-color: #B9B28A;
+  padding: 15px;
+  border-radius: 8px;
+  color: white;
+}
+
+/* How to Use Section */
+.how-to-use {
+  background-color: #504B38;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.how-to-use h2 {
+  margin-bottom: 10px;
+}
+
+.how-to-use ol {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #EBE5C2;
+  color: #504B38;
+  font-size: 14px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* responsiveness */
+@media (max-width: 768px) {
+  .container {
+      width: 100%;
+      padding: 15px;
+  }
+
+  input {
+      width: 90%;
+  }
+}
